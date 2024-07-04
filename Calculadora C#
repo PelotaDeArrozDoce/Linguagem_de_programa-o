@@ -1,0 +1,28 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int num1, num2, op;
+
+      Console.WriteLine (" +++++CALCULADORA+++++\n");
+      Console.WriteLine ("Primeiro valor (valores inteiros):");
+          num1 = Convert.ToInt32( Console.ReadLine() );
+      Console.WriteLine ("Segundo valor (valores inteiros) : \n");
+          num2 = Convert.ToInt32 ( Console.ReadLine() );
+     Console.WriteLine("Selecione uma operação: \n");
+      Console.WriteLine("1. Soma");
+      Console.WriteLine("2. Subtração");
+      Console.WriteLine("3. Divisão");
+      Console.WriteLine("4. Multiplicação");
+      op = Convert.ToInt32( Console.ReadLine() );
+     if(op == 1){
+         Console.WriteLine("A soma de " + num1 + " + " + num2 + "e igual a: "+ (num1+num2));
+     }else if(op == 2){
+          Console.WriteLine("A soma de " + num1 + " + " + num2 + "e igual a: "+ (num1-num2));
+      }else if(op == 3){
+           Console.WriteLine("A soma de " + num1 + " + " + num2 + "e igual a: "+ (num1/num2));
+      }else if(op == 4){
+           Console.WriteLine("A soma de " + num1 + " + " + num2 + "e igual a: "+ (num1*num2));
+  }
+}
+}
