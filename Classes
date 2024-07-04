@@ -1,0 +1,45 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    
+    class Lampada{
+      public string cor:;
+        private string tamanho:;
+        public string tipo:;
+      public int potencia:;
+      public string inteligente:;
+
+        public string Tamanho { get => Tamanho1; set => Tamanho1 = value; }
+        public string Tamanho1 { get => tamanho; set => tamanho = value; }
+    }
+    class luminaria extends Lampada{
+        cor: quente;
+        tamanho: grande;
+        private tipo: luminaria;
+        potencia: 50;
+        inteligente: true;
+    }
+    
+                
+    }
+
+    
+    class Livro{
+       public string titulo:;
+       public string autor:;
+       public int paginas:;
+       public string capa:;
+       public string genero:;
+       public string sequencia:;
+    }
+
+
+        
+    class dias_das_maes{
+         public int dia:;
+         public int mes:;
+         public int ano:;
+    }
+  }
+}
