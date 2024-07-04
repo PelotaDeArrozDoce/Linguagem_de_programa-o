@@ -5,11 +5,11 @@ class Program {
     int num1, num2, op;
 
       Console.WriteLine (" +++++CALCULADORA+++++\n");
-      Console.WriteLine ("Primeiro valor (valores inteiros):");
+      Console.WriteLine ("Primeiro valor (valores inteiros): \n");
           num1 = Convert.ToInt32( Console.ReadLine() );
-      Console.WriteLine ("Segundo valor (valores inteiros) : \n");
+      Console.WriteLine ("\nSegundo valor (valores inteiros) : \n");
           num2 = Convert.ToInt32 ( Console.ReadLine() );
-     Console.WriteLine("Selecione uma operação: \n");
+     Console.WriteLine("\nSelecione uma operação: \n");
       Console.WriteLine("1. Soma");
       Console.WriteLine("2. Subtração");
       Console.WriteLine("3. Divisão");
@@ -18,11 +18,12 @@ class Program {
      if(op == 1){
          Console.WriteLine("A Soma de " + num1 + " + " + num2 + "e igual a: "+ (num1+num2));
      }else if(op == 2){
-          Console.WriteLine("A Subtração de " + num1 + " - " + num2 + "e igual a: "+ (num1-num2));
+          Console.WriteLine("A Subtração de " + num1 + " - " + num2 + " e igual a: "+ (num1-num2));
       }else if(op == 3){
-           Console.WriteLine("A Divisão de " + num1 + " / " + num2 + "e igual a: "+ (num1/num2));
+           Console.WriteLine("A Divisão de " + num1 + " / " + num2 + " e igual a: "+ (num1/num2));
       }else if(op == 4){
-           Console.WriteLine("A Multiplicação de " + num1 + " * " + num2 + "e igual a: "+ (num1*num2));
+           Console.WriteLine("A Multiplicação de " + num1 + " * " + num2 + " e igual a: "+ (num1*num2));
   }
 }
 }
+
